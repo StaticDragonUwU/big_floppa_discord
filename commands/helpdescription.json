@@ -1,0 +1,6 @@
+{
+    "descriptions": {
+        "api": "`f;kanyerest` - Sends a random Kanye West quote\n`f;floprestroom [place]` - Searches for restrooms in [place]\n`f;floppadefine [search]` - Uses Urban Dictionary to find a definition for [search]\n`f;image [search]` - searches Google to find up to 30 images of [search]",
+        "server": "`f;chmsg [channel-name] [message]` - Sends [message] to channel [channel-name]\n`f;newrole [#color] [name]` - Creates a role, named [name] with the color [#color]\n`f;lockchannel` - Locks a channel\n`f;unlockchannel` - Unlocks a channel\n"
+    }
+}
