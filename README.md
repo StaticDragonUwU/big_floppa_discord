@@ -5,4 +5,4 @@ how to run
 2. npm install
 3. go to config.json and put in your bot's token and id    
 4. node bot.js  
-sorry chromium haters its a dependency :troll:
+sorry chromium haters its a dependency (and is installed twice) :troll:
