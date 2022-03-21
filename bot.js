@@ -127,12 +127,12 @@ async function updateCommandCounter() {
    await db.set("commandnumber", db.get("commandnumber") + 1)
 }
 client.on("guildCreate", async (guild) => {
-  db.set(`volume_${guild.id}`, 1)
-  db.set(`${guild.id}_bassboost`, 1)
-  db.set(`${guild.id}_pitch`, 1)
-  db.set(`${guild.id}_speed`, 1)
-  db.set(`${guild.id}_deepslow`, false)
-  db.set(`${guild.id}_nightcore`, false) // init dbs
+  db.set(`${message.guild.id}_pitch`, 1)
+  db.set(`${message.guild.id}_bassboost`, 0)
+  db.set(`${message.guild.id}_speed`, 1)
+  db.set(`${message.guild.id}_nightcore`, false)
+  db.set(`${message.guild.id}_deepslow`, false)
+  db.set(`volume_${message.guild.id}`, 1) // init dbs
   let channelID;
   let thechannels = guild.channels.cache;
 
